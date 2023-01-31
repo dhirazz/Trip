@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(mata-vaishno-devi3.jpeg) center center;
+    background-size: cover;
+}
+h1{
+    color:wheat;
+    font-size: 4.5rem;
+    /* width: 20%; */
+    margin:0 auto;
+    margin-top:0 -50px;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col {
+    margin-top: 14rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 20px #14EACFFF,
+    1px 1px 40px #14EACFFF;
+animation: anime 1s linear infinite;
+}
+
+div:nth-child(1){
+	animation-delay: 0.2s;
+}
+div:nth-child(2){
+	animation-delay: 0.4s;
+}
+@keyframes anime{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
