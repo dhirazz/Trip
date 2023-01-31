@@ -78,3 +78,16 @@ div:nth-child(2){
 		filter: hue-rotate(360deg);
 	}
 }
+
+@media only screen and (max-width: 363px) {
+    h1{
+        color:wheat;
+        font-size: 4.5rem;
+        /* width: 20%; */
+        margin:0 auto;
+        margin-top:0 -50px;
+        font-family: 'Sacramento', cursive;
+        line-height: 2;
+        width:23rem;
+    }
+  }
